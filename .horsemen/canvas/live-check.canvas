@@ -1,0 +1,15 @@
+{
+"horsemen":{"version":1},
+"nodes":[
+{"id":"g-live","type":"group","x":-40,"y":-80,"width":1560,"height":460,"label":"Slice 2b live check: players load after a click"},
+{"id":"link-lookalike","type":"link","x":1060,"y":440,"width":420,"height":120,"title":"Look-alike host: stays a link card","url":"https://www.youtube.com.example.net/watch?v=aqz-KE-bpKQ"},
+{"id":"note-how","type":"text","x":600,"y":440,"width":420,"height":200,"text":"**Live check.** Select *Load video* and *Load preview*. Each player loads only after the click. The CSV shows as a table. A look-alike host stays a link card."},
+{"id":"sheet-google","type":"link","x":1040,"y":0,"width":440,"height":320,"title":"Google Sheets API sample: class data","url":"https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit"},
+{"id":"table-csv","type":"file","x":0,"y":440,"width":560,"height":320,"file":".horsemen/media/live-check.csv"},
+{"id":"vid-vimeo","type":"link","x":520,"y":0,"width":480,"height":320,"title":"Vimeo player demo (Vimeo staff)","url":"https://vimeo.com/76979871"},
+{"id":"vid-youtube","type":"link","x":0,"y":0,"width":480,"height":320,"title":"Big Buck Bunny (Blender Foundation, YouTube)","url":"https://www.youtube.com/watch?v=aqz-KE-bpKQ"}
+],
+"edges":[
+{"id":"e-data","fromNode":"sheet-google","toNode":"table-csv","label":"same idea, in the repository"}
+]
+}
