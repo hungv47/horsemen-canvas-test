@@ -1,7 +1,8 @@
 {
 "horsemen":{"version":1},
 "nodes":[
-{"id":"LzZPJw07sfX7","type":"text","x":325,"y":109,"width":320,"height":140,"text":"New note"}
+{"id":"LzZPJw07sfX7","type":"text","x":325,"y":109,"width":320,"height":140,"text":"New note"},
+{"id":"WZOkjUxoVBpZ","type":"file","x":41,"y":450,"width":480,"height":270,"alt":"poster","file":".horsemen/media/poster-78544f2b.jpg"}
 ],
 "edges":[]
 }
